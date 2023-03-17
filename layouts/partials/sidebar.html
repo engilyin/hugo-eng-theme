@@ -1,0 +1,27 @@
+<div class="sidebar">
+    <div class="sidebarInner">
+      {{ if .Site.IsMultiLingual }}
+      <div id="langMenu"><span>Select your language</span>:
+        {{ range $.Site.Home.AllTranslations }}
+        <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+      <div class="logo"><a aria-current="page" class="" href="/"><img
+            src="/images/remember_words_logo.png" class="sidebar__author-photo" alt="Remember Words"
+            width="100" height="100"></a></div>
+      <div class="siteTitle">Remember Words</div>
+      <div id="mainMenu">
+        <a href="/articles/"><span>Articles</span></a>
+        <a href="/about/"><span>About</span></a>
+        <a href="/help-translate/"><span>Help Translate</span></a>
+        <a href="/feedback/"><span>Feedback</span></a>
+      </div>
+      <div class="logo"><a href="https://play.google.com/store/apps/details?id=engilyin.remembervocabulary">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWAQMAAAAGz+OhAAAABlBMVEX///8AAABVwtN+AAABuUlEQVRIib2WMY6kMBBFv+WA0DeAi6DhWh2MBFIHXMstLmJu4NCB5ZpfnlntbErR6wDMQ6LMd/0qAzePICLRnQLeJU28bDYG+OOVIOUxAxMwGFmQZ4TLUgY50hRkfw875BQZ9rq0e1j8oLhlPf6Je5WpLm2SULDU8ZdWdzLu3vE6c6b28/h3f6+yPpaGwP+ovxPuImOMp3DNeSgzXMr5YWOEm+eaIXv1adLH+1mGr07zGZidhB7XwPSbPmruYqHIIWxWtsshLTB34+ySZNzPwLhLHJHLqn4D1s3EgvDhdQpzeIkuBXRdDIwmoCK6VE8bo+tiYZzHnnJ7XCRJj3E7W6uXhqx1t03IqouBUee1xxg26iLS88/CQvkEayzKo69ddbmdSfFsPvQ0c+RHFwujPz7hGuVetZflrpWFYZC6aF/YaLuE7l8bq9A5/XucqZfYN7Bn/dA6uc1aJHLvFdeZDv9q0PNBHblvu431PtPUdo/Zs9eq/W5n6jetu+rspiXDyPR8EBG6HmyNf840NjaqLuwzfAfYWXNZ/529G6G8gfVznWQabalOIJuR6b6pf7U/tCl/+/c6+w/jCxrPzrTP+ohMAAAAAElFTkSuQmCC"
+            class="sidebar__qr" alt="Download Remember Words" width="150" height="150"></a>
+      </div>
+    </div>
+    <div class="sidebarSeparator">
+    </div>
+</div>

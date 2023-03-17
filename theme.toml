@@ -1,0 +1,18 @@
+name = "hugo-eng-theme"
+license = "MIT"
+licenselink = "https://github.com/engilyin/hugo-eng-theme/LICENSE"
+description = ""
+homepage = "https://github.com/engilyin/hugo-eng-theme"
+tags = []
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "Alex Ilyin"
+  homepage = "https://engilyin.com"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""
